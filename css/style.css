@@ -9,14 +9,33 @@ body{
  background-size: cover;
  color: white;
  text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 .top-banner h1{
   font-size: 50px;
 }
-.banner-button{
+.button{
   background-color: #FF5959;
   text-decoration: none;
   border-radius: 5px;
   padding: 12px 8px;
   color: white;
+}
+.Donate{
+  text-align: center;
+  padding: 20px;
+}
+.Donate span{
+  background: #FAFAFA;;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.border-2px{
+  background: #FFEEEE;;
+  border: 2px solid #FF5959;
+  border-radius: 5px;
 }
