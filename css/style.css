@@ -1,41 +1,139 @@
 body{
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flexible-container{
+  display: flex;
 }
 .top-banner{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
- background-image:url(../images/bidyanondo.png);
- background-size: cover;
- color: white;
- text-align: center;
- display: flex;
- align-items: center;
- justify-content: center;
+  position: relative;
+  background-size: cover;
+  background-image: url(../images/donation-cover.jpg);
 }
-.top-banner h1{
+.text-center h1{
   font-size: 50px;
 }
+.text-center{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .button{
-  background-color: #FF5959;
   text-decoration: none;
-  border-radius: 5px;
+  background-color: #FF5959;
+  width: 160px;
+  height: 56px;
   padding: 12px 8px;
   color: white;
-}
-.Donate{
-  text-align: center;
-  padding: 20px;
-}
-.Donate span{
-  background: #FAFAFA;;
-  padding: 10px;
-  margin: 10px;
   border-radius: 5px;
 }
 
-.border-2px{
-  background: #FFEEEE;;
+/* Donate Today */
+.Donate-Today{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+span{
+background-color: #FAFAFA;
+padding: 18px 7px;
+margin: 10px;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+border-radius: 5px;
+}
+.span-border{
+   background: #FFEEEE;;
   border: 2px solid #FF5959;
   border-radius: 5px;
+}
+.Amount{
+  color: #B3B3B3;
+  margin-bottom: 0;
+}
+
+/* Our Donate plan */
+.Donate-plan{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+}
+
+.plan{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.A{
+  width: 360px;
+  height: 352px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 12px;
+  margin: 10px;
+  font-size: 15px;
+  text-align: left;
+  border-radius: 5px;
+  text-align: justify;
+}
+.B{
+  width: 360px;
+  height: 352px;
+  background: rgba(255, 89, 89, 0.1);
+  padding: 12px;
+  margin: 10px;
+  font-size: 15px;
+  text-align: left;
+  border-radius: 5px;
+  text-align: justify;
+}
+.C{
+  width: 360px;
+  height: 352px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 12px;
+  margin: 10px;
+  font-size: 15px;
+  text-align: left;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+/* Help */
+.Help{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-width{
+  width: 50%;
+  padding-left: 10%;
+
+}
+/* .half-width h1{
+  font-size: px;
+} */
+.half-width img{
+  width: 80%;
 }
