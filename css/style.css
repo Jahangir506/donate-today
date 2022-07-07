@@ -133,13 +133,30 @@ border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px;
 }
 .half-width{
-    width: 30%
+width: 50%;
+margin-left: 125px;
+margin-right: 100px;
+}
+.half-width h1{
+  font-size: 40px;
+}
+.half-width img{
+ width: 400px;
+ height: 390px;
+ margin-right: 150px;
+
 }
 
-.half-width img{
-  width: 50%
+.half-width-two{
+  width: 50%; 
+  margin-right: 150px;
+}
+
+.half-width-two h1{
+  font-size: 40px;
 }
 
 /* my updates */
@@ -175,7 +192,7 @@ border-radius: 5px;
    align-items: center;
    text-decoration: none;
    background-color: #FF5959;
-   padding: 0px 24px;
+   padding: 13px;
    margin-left: -18px;
    border-radius: 0px 4px 4px 0px;
    color: white;
